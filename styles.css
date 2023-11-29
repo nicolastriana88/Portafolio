@@ -1,0 +1,78 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Quicksand', sans-serif;
+}
+body{
+    position: relative;
+    background: hsla(217, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+padding: 20px;
+}
+.navbar{
+padding: 20px;
+}
+.navbar-h{
+margin-left: 0px;
+}
+.navbar-a{
+margin-left: 30px;
+}
+.navbar-s{
+    margin-left: 30px;
+}
+.navbar-p{
+    margin-left: 30px;
+}
+.icons{
+    padding: 20px;
+}
+#linkedin{
+padding: 3px;
+}
+
+#instagram{
+    padding: 3px;
+}
+
+#twitter{
+    padding: 3px;
+}
+
+section{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: grid;
+position: relative;
+justify-content: center;
+}
+.buttons{
+    display: flex;
+    margin-top: 15px;
+    
+}
+.buttons a{
+background: hsla(217, 100%, 50%, 1);
+margin-right: 15px;
+border-radius: 40px;
+padding: 4px;
+}
+.image{
+position: relative;
+justify-content: right;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 55%;
+}
