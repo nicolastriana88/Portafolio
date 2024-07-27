@@ -3,55 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilo principal --->
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="app.js"></script>
+     <!--Fuentes --->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Portafolio</title>
 </head>
 <body>
-<header>
-<a class="logo" href="#">Portafolio</a>
-<div class="navbar">
-    <a class="navbar-h" href="#">
-    Home
-    </a>
-    <a class="navbar-a" href="#">
-    About
-    </a>
-    <a class="navbar-s" href="#">
-    Skills
-    </a>
-    <a class="navbar-p" href="#">
-    Projects
-    </a>
+<div id="header">
+    <ul>
+        <li class="lista"><a href="https://example.com/" target="_blank">Inicio</a></li>
+        <li class="lista"><a href="https://example.com/" target="_blank">Proyectos</a></li>
+        <li class="lista"><a href="https://example.com/" target="_blank">Acerca de mi</a></li>
+        <li class="lista"><a href="https://example.com/" target="_blank">Contacto</a></li>
+    </ul>
 </div>
-
-<div class="icons">
-        <i id="linkedin" class="ri-linkedin-box-fill"></i>
-        <i id="instagram" class="ri-instagram-line"></i>
-        <i id="twitter" class="ri-twitter-x-fill"></i>
-</div>
-
-</header>
 <section>
-<div class="main">
-    <h3>Hello</h3>
-    <h5>Im Nicolas Triana</h5>
-    <p>Full stack developer</p>
-    <div class="buttons">
-    <a>Download CV</a>
-    <a>Hire me</a>
-    </div>
+<div id="titulo">
+<h1>
+Nicolas Triana
+<br>
+Desarrollador
+</h1>
+<div class="icons">
+    <img src="media/github-line.svg" onmouseover="this.src='media/github-fill.svg'" onmouseout="this.src='media/github-line.svg'" alt="github-icon" class="github-line">
+    <img src="media/linkedin-box-line.svg" onmouseover="this.src='media/linkedin-box-fill.svg'" onmouseout="this.src='media/linkedin-box-line.svg'" alt="linkedin-icon" class="linkedin-line"></li>
+    <img src="media/mail-line.svg" onmouseover="this.src='media/mail-fill.svg'" onmouseout="this.src='media/mail-line.svg'" alt="mail-icon" class="mail-line"></li>
 </div>
-<div class="image"> 
-    <img src="media/clasico.jpeg" alt="me">
 </div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut dapibus arcu. Duis sodales vitae ligula in dictum. Phasellus lobortis nisl eget iaculis consequat. Etiam id sem nec ipsum feugiat posuere in eget risus. Donec at pharetra ipsum. Pellentesque fringilla volutpat augue, vel elementum ligula tincidunt sit amet. Suspendisse in odio vestibulum, porttitor lorem efficitur, ornare urna. Ut velit purus, imperdiet et nisl vel, dapibus imperdiet enim. Vivamus sagittis luctus aliquet. Curabitur a nibh in neque fringilla volutpat gravida id ante. Sed tempor rhoncus eros. Vivamus in imperdiet sem, at sodales massa.
+Curabitur vel lorem suscipit, pulvinar diam mattis, rhoncus ipsum. Curabitur non velit tristique, malesuada justo et, tempor dolor. Mauris vitae nulla nec turpis eleifend suscipit. Morbi feugiat nisl ac finibus feugiat. Curabitur mollis odio vitae neque auctor, feugiat scelerisque dui elementum. Nullam non semper lorem, vitae tincidunt turpis. Nunc mauris odio, vulputate et tincidunt sagittis, ultrices quis risus. Integer neque felis, maximus a eleifend sit amet, semper sit amet nunc. Curabitur in mauris at libero malesuada tincidunt. Maecenas cursus sagittis diam, vel efficitur magna bibendum id. Vivamus in tellus ultricies lorem consectetur fermentum. Donec fermentum dui in ante consectetur eleifend.
+</p>
 </section>
-<footer>
-<!--- Aqui va footer flotante--->
-</footer>
+<div id="boton">
+<button><a href="media/hoja de vida 2024 2.pdf" download="hoja_de_vida">Resume</a></button>
+</div>
 </body>
 </html>

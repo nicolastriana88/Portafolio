@@ -1,78 +1,112 @@
-*{
-margin: 0px;
-padding: 0px;
-font-family: 'Quicksand', sans-serif;
-}
 body{
-    position: relative;
-    background: hsla(217, 100%, 50%, 1);
-    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background-color: #E8F9FD;
 }
-header{
-    position: relative;
+
+ul{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-}
-.logo{
-padding: 20px;
-}
-.navbar{
-padding: 20px;
-}
-.navbar-h{
-margin-left: 0px;
-}
-.navbar-a{
-margin-left: 30px;
-}
-.navbar-s{
-    margin-left: 30px;
-}
-.navbar-p{
-    margin-left: 30px;
-}
-.icons{
-    padding: 20px;
-}
-#linkedin{
-padding: 3px;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #2155CD;
 }
 
-#instagram{
-    padding: 3px;
+ul a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #2155CD;
 }
-
-#twitter{
-    padding: 3px;
+ul li a:hover {
+    color: #79DAE8;
 }
-
 section{
-    position:relative;
     display: flex;
+}
+h1{
+    color: #79DAE8;
+    padding: 50px;
+    padding-bottom: 0%;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    color: #0AA1DD;
+    padding: 50px;
+    font-family: "Noto Sans", sans-serif;
+   
+}
+
+.lista{
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+}
+
+#boton{
+    display: flex;
+    align-content: stretch;
     justify-content: center;
 }
-.main{
-    display: grid;
-position: relative;
-justify-content: center;
+
+#boton button{
+    background-color: #2155CD;
+    border-radius: 10%;
+    height: 30px;
+    width: auto;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    border: none;
 }
-.buttons{
+
+button a{
+    background-color: #2155CD;
+    border-radius: 10%;
+    height: 30px;
+    width: auto;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #2494f0;
+}
+
+#boton button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #2494f0;
+}
+
+
+
+.icons{
     display: flex;
-    margin-top: 15px;
-    
+    justify-content: flex-start;
+    padding-left: 40px;
 }
-.buttons a{
-background: hsla(217, 100%, 50%, 1);
-margin-right: 15px;
-border-radius: 40px;
-padding: 4px;
+
+.github-line{
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    padding-right: 10px;
 }
-.image{
-position: relative;
-justify-content: right;
+
+.mail-line{
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    padding-right: 10px;
 }
-.image img{
-    width: 100px;
-    height: 100px;
-    border-radius: 55%;
+
+.linkedin-line{
+    height: 35px;
+    width: 40px;
+    cursor: pointer;
+    padding-right: 10px;
 }
